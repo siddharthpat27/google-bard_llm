@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Dragon - Authentic Chinese Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Lucky Dragon Logo">
+                <h1>Lucky Dragon</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Lucky Dragon!</h2>
+                <p>Experience the vibrant flavors of authentic Chinese cuisine at Lucky Dragon. We use only the freshest ingredients to create dishes that are both delicious and satisfying. Whether you're craving classic favorites or adventurous new tastes, our extensive menu has something for everyone.  Come join us for a delightful dining experience!</p>
+                <a href="#menu" class="btn">Explore Our Menu</a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Our Delicious Menu</h2>
+                <p>Click on each dish to learn more!</p>
+                <div class="menu-items">
+                    <div class="item" onclick="showDetails('item-1')">
+                        <img src="images/kungpao.jpg" alt="Kung Pao Chicken">
+                        <h3>Kung Pao Chicken</h3>
+                    </div>
+                    <div class="item" onclick="showDetails('item-2')">
+                        <img src="images/mapo.jpg" alt="Mapo Tofu">
+                        <h3>Mapo Tofu</h3>
+                    </div>
+                    <div class="item" onclick="showDetails('item-3')">
+                        <img src="images/dan-dan.jpg" alt="Dan Dan Noodles">
+                        <h3>Dan Dan Noodles</h3>
+                    </div>
+                    <div class="item" onclick="showDetails('item-4')">
+                        <img src="images/pekingduck.jpg" alt="Peking Duck">
+                        <h3>Peking Duck</h3>
+                    </div>
+                </div>
+                <div class="item-details" id="item-1">
+                    <h2>Kung Pao Chicken</h2>
+                    <p>Spicy stir-fried chicken with peanuts, vegetables, and chili peppers.</p>
+                    <p>**Ingredients:** Chicken breast, peanuts, bell peppers, chili peppers, scallions, soy sauce, rice vinegar, Shaoxing wine, cornstarch, sugar</p>
+                    <p>**Spice Level:** Medium</p>
+                </div>
+                <div class="item-details" id="item-2" style="display: none;">
+                    <h2>Mapo Tofu</h2>
+                    <p>Silken tofu in a spicy and savory sauce with ground pork and fermented black beans.</p>
+                    <p>**Ingredients:** Silken tofu, ground pork, fermented black beans, chili bean paste, scallions, ginger, garlic, Sichuan peppercorns, soy sauce, rice vinegar, cornstarch</p>
+                    <p>**Spice Level:** Spicy</p>
+                </div>
+                <div class="item-details" id="item-3" style="display: none;">
+                    <h2>Dan Dan Noodles</h2>
+                    <p>Spicy sesame noodles with a savory pork sauce and chili oil.</p>
+                    <p>**Ingredients:** Noodles, ground pork, scallions, peanuts, sesame paste, chili oil, soy sauce, rice vinegar, sugar</p>
+                    <p>**Spice Level:** Medium</p>
+                </div>
+                <div class="item-details" id="item-4" style="display: none;">
+                    <h2>Peking Duck</h2>
+                    <p>Crispy roasted duck served with thin pancakes, hoisin sauce, and scallions.</p>
+                    <p>**Ingredients:** Duck, scallions, cucumber, hoisin sauce, pancakes</p>
+                    <p>**Preparation:** Pre-order required (24 hours
